@@ -1,0 +1,7 @@
+# Reflection: Building the First SmartCare Prototype
+
+Before turning to AI assistance, I built a basic procedural script using simple variables and strings, then enhanced it using Python lists and dictionaries to manage multiple appointment records cleanly. This human-first approach helped me establish a clear mental model of how data structures map to real-world clinic workflows.
+
+When using AI as a tutor and alternative generator, it helped me understand how to implement cleaner error handling and structural validation. The AI pointed out edge cases like handling `None` values and preventing duplicate schedule slots for the same practitioner, which initially weren't covered in my basic script. However, the AI sometimes assumed a preference for interactive loops or file persistence, which went beyond the scope of a simple weekly prototype.
+
+To verify the AI output, I systematically ran test cases including blank patient names, duplicate booking slots, and `None` type inputs to ensure the code failed gracefully with meaningful exceptions rather than crashing unexpectedly. Finally, the core engineering work that remained for me was refining the validation logic, organizing the code structure to match assignment requirements, and documenting the test behaviors accurately.
